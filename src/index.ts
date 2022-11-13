@@ -1,14 +1,14 @@
-type TDetect = {
-  isAndroid: boolean;
-  isIos: boolean;
-  isOpera: boolean;
-  isWindows: boolean;
-  isSSR: boolean;
-  isMobile: boolean;
-  isDesktop: boolean;
-};
+// type TDetect = {
+//   isAndroid: boolean;
+//   isIos: boolean;
+//   isOpera: boolean;
+//   isWindows: boolean;
+//   isSSR: boolean;
+//   isMobile: boolean;
+//   isDesktop: boolean;
+// };
 
-function detect(userAgent: string): TDetect {
+function detect(userAgent: string) {
   const isAndroid = Boolean(userAgent.match(/Android/i));
   const isIos = Boolean(userAgent.match(/iPhone|iPad|iPod/i));
   const isOpera = Boolean(userAgent.match(/Opera Mini/i));

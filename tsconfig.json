@@ -1,12 +1,12 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
+    "target": "ES6",
     "module": "commonjs",
     "esModuleInterop": true,
     "strict": true,
     "removeComments": false,
-    "declaration": true,
+    "declaration": false,
     "outDir": "build"
   },
   "include": ["src", "src/index.ts"],
