@@ -1,5 +1,10 @@
 [![npm version](https://badge.fury.io/js/use-mobile-detect-hook.svg)](https://badge.fury.io/js/use-mobile-detect-hook)
 
+
+# modify
+
+add [pr](https://github.com/haldarmahesh/use-mobile-detect-hook/pull/26/files) for caching
+
 # use-mobile-detect-hook
 
 React hook to detect the device type. This hook is able to detect mobile, desktop, android or iOS device.
